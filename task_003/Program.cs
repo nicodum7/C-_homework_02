@@ -11,7 +11,7 @@ int MultipleNumber()
 MultipleNumber();
 Console.WriteLine();
 
-if (result == 0) Console.WriteLine($"Число {Number1} кратно числу {Number2}");
+if (result == 0) Console.WriteLine($"{Number1} кратно числу {Number2}");
 else
 {
     Console.WriteLine($"{Number1} не кратно {Number2}, остаток от деления равен {Number1 % Number2}");
